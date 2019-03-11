@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import at.indata.tirestorage.model.Model;
 import at.indata.tirestorage.utils.DataUtils;
 
-@RestController()
+@RestController
 @RequestMapping("/api")
 public class MainControllerREST
 {
