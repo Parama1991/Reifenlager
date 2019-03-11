@@ -7,7 +7,6 @@
 	<version>0.0.1</version>
 
 	<name>TireStorage</name>
-	<description>Application for a tire storage system</description>
 
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -70,4 +69,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	<description>Simple Spring boot application for searching the right tires for a vehicle brand/model/tire size which are usually offered by the car manufacturer.</description>
 </project>
