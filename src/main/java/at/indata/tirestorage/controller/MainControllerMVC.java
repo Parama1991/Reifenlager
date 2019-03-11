@@ -1,11 +1,13 @@
-package at.indata.tirestorage;
+package at.indata.tirestorage.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import at.indata.tirestorage.utils.DataUtils;
+
 @Controller
-public class DefaultController
+public class MainControllerMVC
 {
 	@GetMapping("")
 	public String get()
