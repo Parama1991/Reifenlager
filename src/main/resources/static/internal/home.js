@@ -18,7 +18,7 @@ function handleBrandsSelectionChange (selectTag)
 		return;
 		}
 	
-	request.open('GET', 'http://localhost:8080/api/models?brand=' + selectedBrand, true);
+	request.open('GET', '/api/models?brand=' + selectedBrand, true);
 	
 	request.onload = function () {
 	  // Begin accessing JSON data here
